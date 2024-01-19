@@ -9,7 +9,7 @@ const ExploreServices = () => {
             Explore My Expertise Services!
           </h3>
         </div>
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 px-1">
           <p>
             Discover specialized services tailored for businesses in search of
             cutting-edge frontend solutions. Harness the power of React to craft

@@ -16,9 +16,11 @@
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.7",
     "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.2",
     "react-icons": "^4.12.0",
     "react-router-dom": "^6.21.0",
     "react-ts-typewriter": "^0.1.8-b",
+    "recharts": "^2.10.4",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {

@@ -4,6 +4,11 @@ import { Fade } from "react-awesome-reveal";
 import { FaDownload } from "react-icons/fa";
 import ExploreServices from "../Explore services/ExploreServices";
 import AboutMe from "../about me/AboutMe";
+import Services from "../what i do/services";
+import Map from "./map/Map";
+import MySkills from "../my skills/MySkills";
+import MyWorkProject from "../my work project/MyWorkProject";
+import Card from "./card/Card";
 
 const Home = () => {
   return (
@@ -23,7 +28,7 @@ const Home = () => {
               I am passionate{" "}
               <Typewriter text="React Developer" loop={true} speed={200} />
             </h4>
-            <p className="text-xs lg:text-lg">
+            <p className="text-xs lg:text-lg px-1">
               Dedicated to unleashing the full potential of the web. <br /> With
               a focus on crafting captivating and cutting-edge <br />
               digital experiences,I bring creativity and expertise to every
@@ -54,6 +59,11 @@ const Home = () => {
       <ExploreServices/>
       {/* about me section  */}
       <AboutMe/>
+      <Services/>
+      <MySkills/>
+      {/* <MyWorkProject/> */}
+      <Card/>
+      <Map/>
     </>
   );
 };
