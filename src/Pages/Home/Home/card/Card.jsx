@@ -12,7 +12,7 @@ const Card = () => {
   return (
     <>
     <h4 className="text-2xl font-semibold text-center uppercase text-[#E9BA48] font-serif underline mt-10">my works</h4>
-    <p className="text-2xl lg:text-6xl font-bold text-center text-sky-700 mb-5 lg:mb-16 mx-5">The most recent projects I've been working on!</p>
+    <p className="text-2xl lg:text-5xl font-bold text-center text-sky-700 mb-5 lg:mb-16 mx-5">The Most Recent Projects I've Been Working On!</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-20 ml-12 lg:ml-0 lg:gap-x-8">
         <div className="card">
           <div className="image">

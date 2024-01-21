@@ -6,7 +6,7 @@ const Services = () => {
       <h4 className="text-center text-4xl font-bold text-sky-700 mb-10 font-serif">
         What I Do
       </h4>
-      <div className="bg-[rgb(255,245,203)] mx-10 rounded-lg space-y-5 p-10">
+      <div className="bg-[rgb(255,245,203)] mx-10 rounded-lg space-y-5 p-10 text-black">
         <FaCode className="text-6xl font-bold text-sky-700" />
         <h4 className="text-2xl font-bold">What You Get:</h4>
         <li>
@@ -31,7 +31,7 @@ const Services = () => {
         </li>
       </div>
       <div className="lg:flex justify-center items-center gap-5 mx-10">
-        <div className="bg-[rgb(255,245,203)] rounded-lg space-y-1 mt-5 p-10 lg:w-full">
+        <div className="bg-[rgb(255,245,203)] rounded-lg space-y-1 mt-5 p-10 lg:w-full text-black">
           <FaLaptopCode className="text-6xl font-bold text-sky-700" />
           <h4 className="text-2xl font-bold">What I Offer:</h4>
           <li>HTML5,CSS3</li>
@@ -41,7 +41,7 @@ const Services = () => {
           <li>Expert with Node/Express Toolkit</li>
           <li>Performance optimization</li>
         </div>
-        <div className="bg-[rgb(255,245,203)] rounded-lg space-y-1 p-10 mt-5 lg:w-full">
+        <div className="bg-[rgb(255,245,203)] rounded-lg space-y-1 p-10 mt-5 lg:w-full text-black">
           <FaDesktop className="text-6xl font-bold text-sky-700" />
           <h4 className="text-2xl font-bold">Why Choose Me:</h4>
           <li>Dedicated designer for Front-end</li>

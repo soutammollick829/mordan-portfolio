@@ -7,8 +7,8 @@ import AboutMe from "../about me/AboutMe";
 import Services from "../what i do/services";
 import Map from "./map/Map";
 import MySkills from "../my skills/MySkills";
-import MyWorkProject from "../my work project/MyWorkProject";
 import Card from "./card/Card";
+import Contact from "../contact page/Contact";
 
 const Home = () => {
   return (
@@ -18,8 +18,8 @@ const Home = () => {
         <div className="space-y-4 lg:space-y-7 mb-10 lg:mb-0">
           {/* text area here */}
           <Fade cascade>
-            <h1 className="lg:text-2xl font-bold text-gray-600 font-serif">
-              Hello! I am{" "}
+            <h1 className="lg:text-2xl font-bold font-serif">
+              Hello! I am {" "}
               <span className="lg:text-4xl font-bold text-sky-700">
                 Soutam.
               </span>
@@ -61,8 +61,8 @@ const Home = () => {
       <AboutMe/>
       <Services/>
       <MySkills/>
-      {/* <MyWorkProject/> */}
       <Card/>
+      <Contact/>
       <Map/>
     </>
   );

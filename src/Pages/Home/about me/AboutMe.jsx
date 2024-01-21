@@ -4,10 +4,10 @@ const AboutMe = () => {
   return (
     <>
       <img className="w-96 mx-auto rounded-full" src={myImg} alt="my image" />
-      <h4 className="text-2xl font-semibold text-center uppercase mt-10  mx-5 text-[#E9BA48] font-serif">
+      <h4 className="text-2xl font-semibold text-center uppercase mt-10  mx-5 text-[#E9BA48] font-serif underline">
         About Me
       </h4>
-      <hr className="border-sky-700 mb-10" />
+      <hr className=" mb-10" />
       <div className="mx-5 lg:mx-0 mb-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 font-serif">
           <Slide>
