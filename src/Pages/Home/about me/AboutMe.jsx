@@ -3,18 +3,14 @@ import myImg from "../../../assets/photo/profile-pic (14).png";
 const AboutMe = () => {
   return (
     <>
-      <img className="w-96 mx-auto rounded-full" src={myImg} alt="my image" />
-      <h4 className="text-2xl font-semibold text-center uppercase mt-10  mx-5 text-[#E9BA48] font-serif underline">
-        About Me
-      </h4>
-      <hr className=" mb-10" />
+      <img className="w-[600px] mx-auto" src={myImg} alt="my image" />
       <div className="mx-5 lg:mx-0 mb-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 font-serif">
           <Slide>
             <div className="text-center lg:text-start">
-              <h1 className="text-2xl font-bold text-sky-700">
-                Soutam mallick
-              </h1>
+              <h4 className="text-2xl font-semibold mb-4 uppercase text-[#E9BA48] font-serif underline">
+                About Me
+              </h4>
               <p className=" bg-[#E9BA48] inline-block text-white px-2">
                 Front-End developer
               </p>

@@ -1,8 +1,13 @@
 import logo from "../../../assets/logo/Clean Software Developer Circle Logo Design.png";
 import { Link } from "react-router-dom";
 import {
+  FaAngular,
+  FaCogs,
+  FaCommentDots,
   FaFacebook,
   FaGithub,
+  FaHome,
+  FaLayerGroup,
   FaLinkedin,
   FaPhoneAlt,
   FaRegEnvelope,
@@ -14,23 +19,13 @@ const Navbar = () => {
     element.classList.toggle("dark-mode");
   };
   const navOptions = (
-    <>
-      <li className="font-semibold hover:text-sky-700 hover:underline font-serif">
-        <Link to="/">Home</Link>
-      </li>
-      <li className="font-semibold hover:text-sky-700 hover:underline font-serif">
-        <a>About Me</a>
-      </li>
-      <li className="font-semibold hover:text-sky-700 hover:underline font-serif">
-        <a>Services</a>
-      </li>
-      <li className="font-semibold hover:text-sky-700 hover:underline font-serif">
-        <a>Project</a>
-      </li>
-      <li className="font-semibold hover:text-sky-700 hover:underline font-serif">
-        <a>Contact Me</a>
-      </li>
-    </>
+    <div className="space-y-5 lg:space-x-10 lg:mr-5">
+      <Link className="font-semibold hover:text-sky-700 hover:underline font-serif inline-flex items-center gap-1" to="/"><FaHome />Home</Link>
+      <Link className="font-semibold hover:text-sky-700 hover:underline font-serif inline-flex items-center gap-1" to="/about"><FaAngular />About Me</Link>
+      <Link className="font-semibold hover:text-sky-700 hover:underline font-serif inline-flex items-center gap-1" to="/service"><FaCogs />Services</Link>
+      <Link className="font-semibold hover:text-sky-700 hover:underline font-serif inline-flex items-center gap-1" to="/project"><FaLayerGroup />Project</Link>
+      <Link className="font-semibold hover:text-sky-700 hover:underline font-serif inline-flex items-center gap-1" to="/contact"><FaCommentDots />Contact Me</Link>
+    </div>
   );
   return (
     <>
@@ -58,9 +53,11 @@ const Navbar = () => {
             <FaGithub className="text-3xl hover:text-white" />
           </a>
         </div>
+        <a href="mailto:soutammollick829@gmail.com">
         <button className="btn btn-outline rounded-none text-white border-1 bg-sky-700 border-sky-700 w-full lg:w-32 uppercase">
           Hire Me !
         </button>
+        </a>
       </div>
       <div className="navbar bg-black bg-opacity-10 h-14">
         <div className="navbar-start">
@@ -83,7 +80,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 w-52 h-72 space-y-5"
+              className="menu menu-sm dropdown-content mt-5 z-[1] p-2 shadow bg-base-100 w-40 h-60"
             >
               {navOptions}
             </ul>
@@ -91,7 +88,7 @@ const Navbar = () => {
           <img className="w-48 ml-12 lg:ml-0" src={logo} alt="logo" />
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 ml-52">
+          <ul className="menu menu-horizontal px-1 items-center">
             {navOptions}
             <label className="swap swap-rotate">
               {/* this hidden checkbox controls the state */}
@@ -99,7 +96,7 @@ const Navbar = () => {
 
               {/* sun icon */}
               <svg
-                className="swap-on fill-current w-7 h-10"
+                className="swap-on fill-current w-7 h-7 mt-3"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
@@ -108,7 +105,7 @@ const Navbar = () => {
 
               {/* moon icon */}
               <svg
-                className="swap-off fill-current w-7 h-7"
+                className="swap-off fill-current w-7 h-7 mt-3"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >

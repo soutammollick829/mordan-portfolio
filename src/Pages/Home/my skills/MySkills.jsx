@@ -92,9 +92,11 @@ const MySkills = () => {
           </li>
           <li>Front End & Back End Coding</li>
           <li>Team Leader, Problem - Solving</li>
-          <button className="btn btn-outline rounded-none text-white border-1 bg-sky-700 border-sky-700  uppercase">
-            Download Resume <FaDownload />
-          </button>
+          <a href="Front end developer resume with cartificate.pdf" download="Resume">
+            <button className="btn btn-outline rounded-none text-white border-1 bg-sky-700 border-sky-700  uppercase mt-7">
+              Download Resume <FaDownload />
+            </button>
+            </a>
         </div>
         <div>
           <BarChart

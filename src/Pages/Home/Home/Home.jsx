@@ -15,7 +15,7 @@ const Home = () => {
     //<..........home page banner section.......>
     <>
       <div className="mb-20 text-center lg:flex justify-center items-center gap-5 mt-10 lg:mx-0">
-        <div className="space-y-4 lg:space-y-7 mb-10 lg:mb-0">
+        <div className="space-y-4 lg:space-y-5 mb-10 lg:mb-0">
           {/* text area here */}
           <Fade cascade>
             <h1 className="lg:text-2xl font-bold font-serif">
@@ -34,9 +34,11 @@ const Home = () => {
               digital experiences,I bring creativity and expertise to every
               project.
             </p>
+            <a href="Front end developer resume with cartificate.pdf" download="Resume">
             <button className="btn btn-outline rounded-none text-white border-1 bg-sky-700 border-sky-700  uppercase">
               Download Resume <FaDownload />
             </button>
+            </a>
             <div className="stats shadow border-2 border-sky-700 rounded-md">
               <div className="stat place-items-center">
                 <div className="stat-title">Year of Experience</div>
@@ -52,7 +54,7 @@ const Home = () => {
         </div>
         {/* banner image  */}
         <div>
-          <img className="w-[500px]" src={bannerImg} alt="banner image" />
+          <img className="w-[550px]" src={bannerImg} alt="banner image" />
         </div>
       </div>
       {/* other home page section here  */}
